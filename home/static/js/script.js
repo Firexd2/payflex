@@ -2130,5 +2130,12 @@ $document.ready(function () {
       }
     }
   }
-  
+
+    var li_menu_list = $('.rd-navbar-nav').children();
+    var path = location.pathname;
+    for (var q=0;q <li_menu_list.length;q++) {
+        if (li_menu_list.eq(q).children().attr('href') === path) {
+            li_menu_list.eq(q).addClass('active')
+        }
+    }
 });
