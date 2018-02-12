@@ -6,5 +6,5 @@ myvenv
 db.sqlite3
 .DS_Store
 *.log
-def_settings.py
+dev_settings.py
 static/
