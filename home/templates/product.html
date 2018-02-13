@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+      <!-- Breadcrumbs-->
+      <section class="breadcrumbs-custom bg-image" style="background-image: url(/static/images/bg-image-1.jpg);">
+        <div class="shell">
+          <h2 class="breadcrumbs-custom__title">{% block title %}{% endblock %}</h2>
+          <ul class="breadcrumbs-custom__path">
+            <li><a href="/">Главная</a></li>
+            <li class="active">{% block current %}{% endblock %}</li>
+          </ul>
+        </div>
+      </section>
+            {% block terminal %}
+
+
+            {% endblock %}
+    {##}
+    {#      <!-- Counter-->#}
+    {#      <section class="section section-md bg-gray-dark" style="background-color: #3c3c3c;">#}
+    {#        <div class="shell">#}
+    {#          <div class="range range-50">#}
+    {#            <div class="cell-xs-6 cell-md-3">#}
+    {#              <!-- Box counter-->#}
+    {#              <article class="box-counter-modern box-counter-bordered">#}
+    {#                <div class="box-counter-modern__wrap">#}
+    {#                  <div class="counter" data-zero="true">35</div>#}
+    {#                </div>#}
+    {#                <p class="box-counter-modern__title">Partners worldwide</p>#}
+    {#              </article>#}
+    {#            </div>#}
+    {#            <div class="cell-xs-6 cell-md-3">#}
+    {#              <!-- Box counter-->#}
+    {#              <article class="box-counter-modern box-counter-bordered">#}
+    {#                <div class="box-counter-modern__wrap"><span class="small">#</span>#}
+    {#                  <div class="big" data-zero="true">01</div>#}
+    {#                </div>#}
+    {#                <p class="box-counter-modern__title">Advertising agency</p>#}
+    {#              </article>#}
+    {#            </div>#}
+    {#            <div class="cell-xs-6 cell-md-3">#}
+    {#              <!-- Box counter-->#}
+    {#              <article class="box-counter-modern box-counter-bordered">#}
+    {#                <div class="box-counter-modern__wrap">#}
+    {#                  <div class="counter" data-zero="true">264</div>#}
+    {#                </div>#}
+    {#                <p class="box-counter-modern__title">Successful projects</p>#}
+    {#              </article>#}
+    {#            </div>#}
+    {#            <div class="cell-xs-6 cell-md-3">#}
+    {#              <!-- Box counter-->#}
+    {#              <article class="box-counter-modern box-counter-bordered">#}
+    {#                <div class="box-counter-modern__wrap">#}
+    {#                  <div class="counter" data-zero="true">17</div>#}
+    {#                </div>#}
+    {#                <p class="box-counter-modern__title">Years in the industry</p>#}
+    {#              </article>#}
+    {#            </div>#}
+    {#          </div>#}
+    {#        </div>#}
+    {#      </section>#}
+{% endblock %}

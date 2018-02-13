@@ -7,3 +7,7 @@ def home_page(request):
 
 def contacts_page(request):
     return render(request, 'contacts.html', locals())
+
+
+def products(request, name):
+    return render(request, 'products/' + name + '.html', locals())
