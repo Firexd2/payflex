@@ -1871,7 +1871,7 @@ $document.ready(function () {
       show: false
     },
     color: {
-      pattern: ['#ffe500']
+      pattern: ['#527ebf']
     },
     point: {
       r: 4
