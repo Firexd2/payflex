@@ -1399,7 +1399,7 @@ $document.ready(function () {
   if (plugins.rdMailForm.length) {
     var i, j, k,
       msg = {
-        'MF000': 'Successfully sent!',
+        'MF000': 'Письмо успешно отправлено! Ждите нашего звонка.',
         'MF001': 'Recipients are not set!',
         'MF002': 'Form will not work locally!',
         'MF003': 'Please, define email field in your form!',

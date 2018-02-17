@@ -200,7 +200,7 @@
                             <h4 class="heading-bordered">Мы вам перезвоним</h4>
                             <p>Оставьте здесь свой номер телефон и мы предложим вам лучшие продукты!</p>
                             <!-- RD Mailform-->
-                            <form class="rd-mailform rd-mailform_sm rd-mailform_centered box-width-2" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php">
+                            <form class="rd-mailform rd-mailform_sm rd-mailform_centered box-width-2" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="/send/">{% csrf_token %}
                                 <div class="form-wrap">
                                     <input class="form-input" id="subscribe-number" type="tel" name="phone">
                                     <label class="form-label" for="subscribe-number">Ваш номер телефона</label>
