@@ -23,5 +23,6 @@ urlpatterns = [
     path('', views.home_page),
     path('contacts/', views.contacts_page),
     path('product/<name>/', views.products),
-    path('send/', views.send_email)
+    path('send/', views.send_email),
+    path('send_contacts/', views.send_email_contacts)
 ]

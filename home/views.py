@@ -22,3 +22,12 @@ def send_email(request):
     email = EmailMessage('Запрос на обратный звонок', message, to=['info@payflex.ru'])
     email.send()
     return HttpResponse('MF000')
+
+
+@csrf_exempt
+def send_email_contacts(request):
+    message = 'Имя: ' + str(request.POST['first-name']) + '\nНомер телефона: ' + str(request.POST['phone']) +\
+              '\nE-mail: ' + str(request.POST['email']) + '\nСообщение: ' + str(request.POST['message'])
+    email = EmailMessage('Запрос со страницы обратной связи payflex.ru', message, to=['info@payflex.ru'])
+    email.send()
+    return HttpResponse('MF000')
