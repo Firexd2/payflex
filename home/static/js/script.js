@@ -451,19 +451,19 @@ $document.ready(function () {
     var regularConstraintsMessages = [
       {
         type: regula.Constraint.Required,
-        newMessage: "The text field is required."
+        newMessage: "Это поле заполнено не правильно"
       },
       {
         type: regula.Constraint.Email,
-        newMessage: "The email is not a valid email."
+        newMessage: "Введенный вами e-mail не верен"
       },
       {
         type: regula.Constraint.Numeric,
-        newMessage: "Only numbers are required"
+        newMessage: "Только цифры"
       },
       {
         type: regula.Constraint.Selected,
-        newMessage: "Please choose an option."
+        newMessage: "Пожалуйста, выберите опцию"
       }
     ];
 
