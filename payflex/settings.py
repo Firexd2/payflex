@@ -14,6 +14,8 @@ import os
 
 SECRET_KEY = 'test'
 
+GOOGLE_RECAPTCHA_SECRET_KEY = '6LdK6ksUAAAAAKWgH192IhTWnzAKMcJQHx7ov5sd'
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 

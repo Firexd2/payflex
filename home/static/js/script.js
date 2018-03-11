@@ -1400,7 +1400,7 @@ $document.ready(function () {
     var i, j, k,
       msg = {
         'MF000': 'Письмо успешно отправлено! Ждите нашего звонка.',
-        'MF001': 'Recipients are not set!',
+        'MF001': 'Вы не прошли проверку "Я не робот". Попробуйте еще раз!',
         'MF002': 'Form will not work locally!',
         'MF003': 'Please, define email field in your form!',
         'MF004': 'Please, define type of your form!',
